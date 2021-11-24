@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>%UNITY_WEB_NAME%</title>
+        <script src="%UNITY_WEBGL_LOADER_URL%"></script>
+        <script>
+            UnityLoader.instantiate("unityContainer", "%UNITY_WEBGL_BUILD_URL%");
+        </script>
+    </head>
+    <body>
+        <div id="unityContainer"></div>
+    </body>
+    <style>
+        html,
+        body,
+        #unityContainer,
+        canvas {
+            display: block;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</html>
