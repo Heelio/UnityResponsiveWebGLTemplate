@@ -10,6 +10,7 @@ It automatically ajusts to fullscreen for any aspect ratio.
 Simply download one of the available package depending on your Unity version : 
  - [:arrow_down: Unity 2019](Packages/ResponsiveWebGLTemplate_2019.unitypackage?raw=1)
  - [:arrow_down: Unity 2020](Packages/ResponsiveWebGLTemplate_2020.unitypackage?raw=1)
+ - [:arrow_down: Unity 2021](Packages/ResponsiveWebGLTemplate_2021.unitypackage?raw=1)
 
 Then import it in your Unity project.
 
